@@ -10,8 +10,8 @@ end
 
 def assign_rooms(speakers)
   speakers.map.with_index do |speaker, idx|
-  idx
-  room_num = idx + 1
+    idx
+    room_num = idx + 1
     "Hello, #{speaker}! You'll be assigned to room #{room_num}!"
   end
 end
