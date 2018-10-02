@@ -18,6 +18,7 @@ end
 
 def printer(attendees)
   attendees.each_with_index do |attendee, idx|
+    room_num = idx + 1
     badge_maker(attendee)
   end
 end
