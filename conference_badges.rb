@@ -1,4 +1,4 @@
-def conference_badges(names)
+def badge_maker(names)
   names.map do |name|
     "Hello, my name is #{name}"
   end
