@@ -17,7 +17,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  attendees.each_with_index do |attendee, idx|
+  attendees.each do |attendee|
     room_num = (idx + 1)
     badge_maker(attendee)
     
