@@ -1,2 +1,2 @@
-def conference_badges
+def conference_badges(names)
 end
