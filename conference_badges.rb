@@ -1,3 +1,3 @@
 def conference_badges(names)
-  names.map
+  names.map do |name|
 end
