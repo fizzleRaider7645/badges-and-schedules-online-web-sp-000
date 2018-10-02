@@ -19,6 +19,5 @@ end
 def printer(attendees)
   attendees.each_with_index do |attendee, idx|
     badge_maker(attendee)
-    
   end
 end
