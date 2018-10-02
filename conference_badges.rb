@@ -11,6 +11,6 @@ end
 def assign_rooms(speakers)
   speakers.each_with_index do |speaker, idx|
     room_num = idx + 1
-    "Hello, _____! You'll be assigned to room _____!"
+    "Hello, #{speaker}! You'll be assigned to room _____!"
   end
 end
